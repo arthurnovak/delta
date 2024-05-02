@@ -1,0 +1,60 @@
+[
+  {
+    "http_version": "HTTP/1.1",
+    "request": {
+      "body": null,
+      "headers": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "Cookie",
+          "value": "AppVersion=13.4.0;AppType=iPhone"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mobile/13.4.0 (iPhone; iOS 16.5)"
+        },
+        {
+          "name": "x-sectrace",
+          "value": "uuid"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-US;q=1"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "method": "GET",
+      "url": "url?appType=iPhone&appVersion=13.4.0"
+    },
+    "added": {
+      "key_1": {
+        "key_2": 1
+      }
+    },
+    "response": {
+      "body": "{\"appName\":\"App\"}",
+      "headers": [
+        {
+          "name": "Cache-Control",
+          "value": "max-age=0"
+        }
+      ],
+      "status_code": 200,
+      "status_text": "OK"
+    }
+  }
+]

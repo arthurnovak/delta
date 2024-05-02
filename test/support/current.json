@@ -1,0 +1,59 @@
+[
+  {
+    "http_version": "HTTP/1.1",
+    "request": {
+      "body": null,
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Cookie",
+          "value": "AppVersion=13.3.7;AppType=iPhone"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mobile/13.3.7 (iPhone; iOS 16.5)"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-US;q=1"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        }
+      ],
+      "method": "GET",
+      "url": "url?appType=iPhone&appVersion=13.3.7"
+    },
+    "removed": {
+      "headers": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    "response": {
+      "body": "{\"appName\":\"App\"}",
+      "headers": [
+        {
+          "name": "Cache-Control",
+          "value": "max-age=0"
+        }
+      ],
+      "status_code": 200,
+      "status_text": "OK"
+    }
+  }
+]
