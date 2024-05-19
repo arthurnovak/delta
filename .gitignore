@@ -8,3 +8,4 @@ erl_crash.dump
 *.beam
 delta-*.tar
 /tmp/
+/docs/img/.DS_Store
