@@ -38,7 +38,7 @@
         }
       ],
       "method": "GET",
-      "url": "url?appType=iPhone&appVersion=13.4.0"
+      "url": "http://host.com/url?appType=iPhone&appVersion=13.4.0"
     },
     "added": {
       "key_1": {

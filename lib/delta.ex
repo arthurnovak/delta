@@ -1,5 +1,5 @@
 defmodule Delta do
-  alias Delta.{Diff, Print}
+  alias Delta.{Diff, Parser, Printer}
 
   @spec get_diff(
           String.t() | :jiffy.json_value(),
@@ -10,6 +10,6 @@ defmodule Delta do
   end
 
   def get_diff(new, current) do
-    Diff.get(new, current) |> Print.pretty_print()
+    Diff.get(Parser.parse(new), Parser.parse(current)) |> Printer.pretty_print()
   end
 end

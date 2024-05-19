@@ -34,7 +34,7 @@
         }
       ],
       "method": "GET",
-      "url": "url?appType=iPhone&appVersion=13.3.7"
+      "url": "http://host.com/url?appType=iPhone&appVersion=13.3.7"
     },
     "removed": {
       "headers": [
